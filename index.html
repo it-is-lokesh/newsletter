@@ -15,7 +15,7 @@
         }
 
         .size{
-            width: 20%;
+            width: auto;
             margin-left: auto;
             margin-right: auto;
             margin-bottom: 20px;
@@ -29,6 +29,16 @@
             color: white;
             text-decoration: none;
         }
+
+        @media only screen and (max-width: 600px){
+        	.media{
+                width: 100% !important;
+            }
+
+            h5{
+                font-size: 16px;
+            }
+        }
     </style>
     <title>Group 10 | Newsletter</title>
 </head>
@@ -38,7 +48,7 @@
     <h2 style="margin-bottom: 25px; text-align: center;">Newsletter</h2>
 
 
-    <div class="row row-cols-1 row-cols-md-2 g-4" style="margin-bottom: 25px; width: 80%; margin-right: auto; margin-left:auto;">
+    <div class="row row-cols-1 row-cols-md-2 g-4 media" style="margin-bottom: 25px; width: 80%; margin-right: auto; margin-left:auto;">
         <div class="col">
             <div class="card shadow">
                 <img src="https://images.yourstory.com/cs/2/a9efa9c02dd911e9adc52d913c55075e/Reaching-the-unicorn-1591705194203.png?fm=auto&ar=2:1&mode=crop&crop=faces&w=800" class="card-img-top" alt="...">
